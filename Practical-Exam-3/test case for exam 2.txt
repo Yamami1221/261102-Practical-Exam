@@ -1,0 +1,24 @@
+Card x = Card("CLUB A");
+cout << x.suit;
+CLUB
+Card x = Card("SPADE 2");
+cout << x.face;
+2
+Card x = Card("DiamonD k");
+cout << x.face << "\n" << x.suit;
+K
+DIAMOND
+Card x = Card("Heart 10");
+cout << x.face << "\n" << x.suit;
+10
+HEART
+cout << (Card("Spade 10") > Card("Spade 2"));
+0
+cout << (Card("CLUB 2") > Card("Spade 2"));
+0
+cout << (Card("Diamond A") > Card("Heart 4"));
+1
+cout << (Card("SPADE A") > Card("SPADE 4"));
+1
+cout << (Card("Heart K") > Card("heart Q"));
+1

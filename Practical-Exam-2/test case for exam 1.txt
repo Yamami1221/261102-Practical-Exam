@@ -1,0 +1,15 @@
+cout << fixed << setprecision(3);
+cout << sg(18.5,2.4,2);
+167.200
+cout << fixed << setprecision(3);
+cout << sg(-5.4,205.4,4.5);
+0.000
+cout << fixed << setprecision(3);
+cout << sg(5.4,205.4,4.5);
+2998.044
+cout << fixed << setprecision(3);
+cout << sg(1000,1,25);
+2562.560
+cout << fixed << setprecision(3);
+cout << sg(0.5,0.15,0.08);
+65.000
